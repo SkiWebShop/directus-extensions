@@ -1,0 +1,1 @@
+"use strict";module.exports=({filter:e},{env:t,services:s,exceptions:i})=>{e("authenticate",(async(e,s)=>{const{req:i}=s;"/users/invite"===i.url&&i.body&&(i.body.invite_url=t.USER_INVITE_URL_ALLOW_LIST)}))};
